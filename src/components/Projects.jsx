@@ -9,20 +9,23 @@ const projectsData = [
     {
         image: sem4_1,
         title: "Plant & Go",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sed eum laborum dicta assumenda eligendi quasi a qui saepe itaque distinctio corrupti cumque natus dolor et rerum, praesentium aliquid. Animi!",
-        technologies: ["Tech1", "TEch2", "Tech3", "Tecj5"]
+        description: "A remote-controlled green house that houses several plants and automatically waters them while collecting data about plants’ environment.",
+        technologies: ["FastAPI", "Mosquitto", "React", "mongoDB", "Docker & Kuberneters"],
+        link: ""
     },
     {
         image: sem3_1,
         title: "EatWise",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sed eum laborum dicta assumenda eligendi quasi a qui saepe itaque distinctio corrupti cumque natus dolor et rerum, praesentium aliquid. Animi!",
-        technologies: ["Tech1", "TEch2", "Tech3", "Tecj5"]
+        description: "The system enables businesses to sell surplus food at discounted prices to customers, effectively reducing food waste while offering affordable meals.",
+        technologies: ["SpringBoot", "RESTful API", "gRPC", "Blazor", "mongoDB", "Azure blob storage", "JWT & Spring Security"],
+        link: "https://github.com/Maria0603/SEP3"
     },
     {
         image: sem2_1,
         title: "BidHub",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sed eum laborum dicta assumenda eligendi quasi a qui saepe itaque distinctio corrupti cumque natus dolor et rerum, praesentium aliquid. Animi!",
-        technologies: ["Tech1", "TEch2", "Tech3", "Tecj5"]
+        description: "Users either sell an item or participate in an auction by bidding on one. All this depending on the role they assumed in this interaction.",
+        technologies: ["JavaFX", "PostgreSQL", "Bootstrap", "JavaScript", "HTML", "CSS"],
+        link: "https://github.com/Maria0603/SEP2_Auction"
     }
 ]
 
@@ -42,10 +45,10 @@ const ScrollReveal = ({children}) => {
 const ProjectCard = ({project}) => {
     return (
         <ScrollReveal>
+            <a href={project.link} target="_blank" className="cursor-default">
         <div className="flex flex-col items-center gap-8 md:flex-row md:gap-24">
             <img src={project.image} alt={project.title}  className="w-full cursor-pointer 
                     rounded-2xl transition-all duration-300 hover:scale-105 md:w-[300px]"/>
-
             <div className="flex flex-wrap">
             <div className="flex flex-col pag-5">
                 <div className="text-xl font-semibold">{project.title}</div>
@@ -61,6 +64,8 @@ const ProjectCard = ({project}) => {
             </div>
             </div>
         </div>
+        </a>
+
         </ScrollReveal>
     );
 };
