@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { motion } from "framer-motion";
-import heroImage from "/Hero/profile.jpeg";
+import heroImage from "/Hero/pfp.png";
 const Hero = () => {
 const cvDownload = () => {
     const link = document.createElement("a");
