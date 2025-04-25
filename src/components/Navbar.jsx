@@ -1,6 +1,7 @@
 import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs"
 import { useState } from "react";
 import { BiMenu, BiX } from "react-icons/bi";
+import logo from "/Logo.png";
 
 const Navbar = () => {
   
@@ -14,20 +15,20 @@ const Navbar = () => {
     <nav className="fixed top-0 z-10 flex w-full items-center justify-between border-b border-b-gray-700 bg-black/70 
                     px-16 py-6 text-white backdrop-blur-md md:justify-evenly">
         <a href="#home">
-            <img src="Nav/Logo.png" alt="Logo" className="mx-auto block h-12 sm:mx-0 sm:shrink-0 opacity-80 transition-all
+            <img src={logo} alt="Logo" className="mx-auto block h-12 sm:mx-0 sm:shrink-0 opacity-80 transition-all
                     duration-300 hover:opacity-100"/>
         </a>
         <ul className="hidden md:flex gap-10">
             <a href="#home" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100">
                 <li>Home</li>
             </a>
-            <a href="#home" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100">
+            <a href="#tech" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100">
                 <li>Tech</li>
             </a>
-            <a href="#home" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100">
+            <a href="#projects" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100">
                 <li>Projects</li>
             </a>
-            <a href="#home" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100">
+            <a href="#contact" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100">
                 <li>Contact</li>
             </a>
         </ul>
