@@ -45,9 +45,9 @@ const Navbar = () => {
         </ul>
 
         {isOpen ? (
-            <BiX className="block md:hidden text-4x1" onClick={menuOpen}/>
+            <BiX className="block md:hidden text-4xl" onClick={menuOpen}/>
         ) : (
-            <BiMenu className="block md:hidden text-4x1" onClick={menuOpen}/>
+            <BiMenu className="block md:hidden text-4xl" onClick={menuOpen}/>
         )}
 
         {isOpen && (
