@@ -1,7 +1,7 @@
 import sem2_1 from "/Projects/2ndSem-1.png";
 import sem3_1 from "/Projects/3rdSem-1.png";
 import sem4_1 from "/Projects/4thSem-1.png";
-
+import pokedex from "/Projects/pokedex.png";
 /* eslint-disable no-unused-vars */
 import { motion } from "framer-motion";
 
@@ -26,7 +26,15 @@ const projectsData = [
         description: "Users either sell an item or participate in an auction by bidding on one. All this depending on the role they assumed in this interaction.",
         technologies: ["JavaFX", "PostgreSQL", "Bootstrap", "JavaScript", "HTML", "CSS"],
         link: "https://github.com/Maria0603/SEP2_Auction"
-    }
+    },
+    {
+        image: pokedex,
+        title: "Pokedex",
+        description: "A List of Pokemons with information about them, including their types and stats.",
+        technologies: ["React", "Tailwindcss", "JavaScript", "HTML"],
+        link: "https://martman954.github.io/pokedex/"
+    },
+
 ]
 
 const ScrollReveal = ({children}) => {
