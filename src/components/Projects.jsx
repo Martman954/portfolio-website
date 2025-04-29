@@ -14,6 +14,13 @@ const projectsData = [
         link: ""
     },
     {
+        image: pokedex,
+        title: "Pokedex",
+        description: "A List of Pokemons with information about them, including their types and stats.",
+        technologies: ["React", "Tailwindcss", "JavaScript", "HTML"],
+        link: "https://martman954.github.io/pokedex/"
+    },
+    {
         image: sem3_1,
         title: "EatWise",
         description: "The system enables businesses to sell surplus food at discounted prices to customers, effectively reducing food waste while offering affordable meals.",
@@ -26,13 +33,6 @@ const projectsData = [
         description: "Users either sell an item or participate in an auction by bidding on one. All this depending on the role they assumed in this interaction.",
         technologies: ["JavaFX", "PostgreSQL", "Bootstrap", "JavaScript", "HTML", "CSS"],
         link: "https://github.com/Maria0603/SEP2_Auction"
-    },
-    {
-        image: pokedex,
-        title: "Pokedex",
-        description: "A List of Pokemons with information about them, including their types and stats.",
-        technologies: ["React", "Tailwindcss", "JavaScript", "HTML"],
-        link: "https://martman954.github.io/pokedex/"
     },
 
 ]
