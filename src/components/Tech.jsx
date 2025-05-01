@@ -56,9 +56,9 @@ const Tech = () => {
           </div>
           <h2 className="text-center text-2xl font-semibold mb-16">Frontend</h2>
           <p className="mb-8">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi id
-            libero ducimus sit omnis ex dolor earum, eaque expedita esse autem
-            laborum enim rem suscipit doloribus, architecto modi quaerat fuga!
+          I specialize in creating seamless, responsive, and accessible user interfaces using modern frontend technologies. 
+          As people are visual creatures, it is crucial to choose the right approach and have a result that is pleasent
+          to look at. 
           </p>
           <div className="flex flex-wrap justify-center py-2 px-2 gap-2">
             <motion.div
@@ -94,25 +94,6 @@ const Tech = () => {
                 <img
                   src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
                   alt="css3"
-                  className="cursor-pointer transition-all duration-300 hover:-translate-y-5 w-[60px] md:w-[70px] lg:w-[80px]"
-                />
-              </a>
-            </motion.div>
-
-            <motion.div
-              variants={variants}
-              initial="hidden"
-              whileInView="visible"
-              transition={{ duration: 0.5 }}
-            >
-              <a
-                href="https://getbootstrap.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
-                  alt="bootstrap"
                   className="cursor-pointer transition-all duration-300 hover:-translate-y-5 w-[60px] md:w-[70px] lg:w-[80px]"
                 />
               </a>
@@ -239,10 +220,7 @@ const Tech = () => {
           </div>
           <h2 className="text-center text-2xl font-semibold  mb-16">Backend</h2>
           <p className="mb-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas beatae
-            quae voluptates aut deserunt ipsam, possimus dolores dolore sit ex!
-            Aliquam aut pariatur fugiat aspernatur optio iusto earum harum
-            molestias?
+          From APIs to databases, I develop robust backend systems tailored to application needs. I prioritize clean architecture, optimized queries, and scalable deployments to support both startups and enterprise-level systems.
           </p>
           <div className="flex flex-wrap justify-center py-2 px-2 gap-2">
             <motion.div
@@ -521,10 +499,7 @@ const Tech = () => {
           </div>
           <h2 className="text-center text-2xl font-semibold  mb-16">AI & ML</h2>
           <p className="mb-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-            quia assumenda eveniet doloremque laboriosam! Obcaecati modi eos
-            delectus optio! Tempora provident velit beatae ab illo. Quas
-            dignissimos illum deserunt aut!
+          With a deep interest in data-driven solutions, I develop ML models and AI applications that solve real-world problems—ranging from predictive analytics to natural language processing.
           </p>
           <div className="flex flex-wrap justify-center py-2 px-2 gap-10">
             <motion.div
