@@ -583,45 +583,45 @@ const Tech = () => {
                 />
               </a>
             </motion.div>
-            <h4 className="text-white text-xl font-medium">My Work:</h4>
+          </div>
+          <h4 className="text-white text-center text-xl font-medium mb-4">My Work:</h4>
             <ul className="flex flex-wrap  justify-center  w-full text-center">
               <li
-                className="cursor-pointer text-nowrap rounded-lg border border-indigo-600 bg-black px-3 py-3 mx-2
+                className="cursor-pointer text-nowrap rounded-lg border border-indigo-600 bg-black px-3 py-3 mx-2 my-2
                         text-xs font-bold text-white shadow-lg shadow-indigo-700/20 trnsition-all
                         duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-indigo-600"
               >
-                CopenhavenAirBnB
+                <a href="https://github.com/Martman954/CopenhavenAirBnB" target="_blank">CopenhavenAirBnB</a>
+                </li>
+              <li
+                className="cursor-pointer text-nowrap rounded-lg border border-indigo-600 bg-black px-3 py-3 mx-2 my-2
+                        text-xs font-bold text-white shadow-lg shadow-indigo-700/20 trnsition-all
+                        duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-indigo-600"
+              >
+                <a href="https://github.com/Martman954/Car-prices" target="_blank">Car Prices</a>
               </li>
               <li
-                className="cursor-pointer text-nowrap rounded-lg border border-indigo-600 bg-black px-3 py-3 mx-2
+                className="cursor-pointer text-nowrap rounded-lg border border-indigo-600 bg-black px-3 py-3 mx-2 my-2
                         text-xs font-bold text-white shadow-lg shadow-indigo-700/20 trnsition-all
                         duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-indigo-600"
               >
-                Car Prices
+                <a href="https://github.com/Martman954/Candidates-Test-2022" target="_blank">Candidates Test</a>
               </li>
               <li
-                className="cursor-pointer text-nowrap rounded-lg border border-indigo-600 bg-black px-3 py-3 mx-2
+                className="cursor-pointer text-nowrap rounded-lg border border-indigo-600 bg-black px-3 py-3 mx-2 my-2
                         text-xs font-bold text-white shadow-lg shadow-indigo-700/20 trnsition-all
                         duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-indigo-600"
               >
-                Candidate Test 2022
+                <a href="https://github.com/Martman954/Mushroom-Foraging" target="_blank">Mushroom Foraging</a>
               </li>
               <li
-                className="cursor-pointer text-nowrap rounded-lg border border-indigo-600 bg-black px-3 py-3 mx-2
+                className="cursor-pointer text-nowrap rounded-lg border border-indigo-600 bg-black px-3 py-3 mx-2 my-2
                         text-xs font-bold text-white shadow-lg shadow-indigo-700/20 trnsition-all
                         duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-indigo-600"
               >
-                Mushroom Foraging
-              </li>
-              <li
-                className="cursor-pointer text-nowrap rounded-lg border border-indigo-600 bg-black px-3 py-3 mx-2
-                        text-xs font-bold text-white shadow-lg shadow-indigo-700/20 trnsition-all
-                        duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-indigo-600"
-              >
-                Sentiment Analysis
+                <a href="https://github.com/Martman954/Sentiment-Analysis" target="_blank">Sentiment Analysis</a>
               </li>
             </ul>
-          </div>
         </motion.div>
       </div>
     </div>
