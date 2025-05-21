@@ -575,6 +575,24 @@ const Tech = () => {
                 />
               </a>
             </motion.div>
+            <motion.div
+              variants={variants}
+              initial="hidden"
+              whileInView="visible"
+              transition={{ duration: 0.5 }}
+            >
+              <a
+                href="https://numpy.org/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://raw.githubusercontent.com/numpy/numpy/main/branding/logo/primary/numpylogo.svg"
+                  alt="numpy"
+                  className="cursor-pointer transition-all duration-300 hover:-translate-y-5 w-[60px] md:w-[70px] lg:w-[80px] pt-4"
+                />
+              </a>
+            </motion.div>
 
           </div>
           <h4 className="text-white text-center text-xl font-medium mb-4">My Work:</h4>
