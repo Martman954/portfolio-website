@@ -501,7 +501,7 @@ const Tech = () => {
           <p className="mb-8">
           With a deep interest in data-driven solutions, I develop ML models and AI applications that solve real-world problems—ranging from predictive analytics to natural language processing.
           </p>
-          <div className="flex flex-wrap justify-center py-2 px-2 gap-10">
+          <div className="flex flex-wrap justify-center py-2 px-2 gap-2">
             <motion.div
               variants={variants}
               initial="hidden"
@@ -516,7 +516,7 @@ const Tech = () => {
                 <img
                   src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg"
                   alt="pandas"
-                  className="cursor-pointer transition-all duration-300 hover:-translate-y-5 w-[60px] md:w-[70px] lg:w-[80px]"
+                  className="cursor-pointer transition-all duration-300 hover:-translate-y-5 pt-2 w-[60px] md:w-[70px] lg:w-[80px]"
                 />
               </a>
             </motion.div>
@@ -539,7 +539,24 @@ const Tech = () => {
                 />
               </a>
             </motion.div>
-
+            <motion.div
+                variants={variants}
+                initial="hidden"
+                whileInView="visible"
+                transition={{ duration: 0.5 }}
+              >
+              <a
+                href="https://matplotlib.org/"
+                target="_blank"
+                rel="noreferrer"
+              >   
+                <img
+                  src="https://matplotlib.org/_static/images/logo2.svg"
+                  alt="matplotlib"
+                  className="cursor-pointer transition-all duration-300 hover:-translate-y-5 w-[60px] md:w-[70px] lg:w-[80px] pt-3"
+                />
+              </a>
+            </motion.div>
             <motion.div
               variants={variants}
               initial="hidden"
@@ -558,6 +575,7 @@ const Tech = () => {
                 />
               </a>
             </motion.div>
+
           </div>
           <h4 className="text-white text-center text-xl font-medium mb-4">My Work:</h4>
             <ul className="flex flex-wrap  justify-center  w-full text-center">
